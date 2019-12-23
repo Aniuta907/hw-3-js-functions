@@ -134,7 +134,7 @@ function splitAndMerge(str,sp){
         num-=1;
         }
         timerId = setTimeout(tick, 1000); // (*)
-      }, 2000);
+      }, 1000);
     }
 
     console.log(countDown(3)); // 3 2 1 0
